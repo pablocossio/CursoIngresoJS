@@ -4,6 +4,7 @@
 	Lenguaje: Javascript
 	fecha: 1/01/2022
 	info: Archivo js en donde se ejecuta pedir nombre y edad y concatenar los los valores en una varaible y mostrar por alert.
+	ejercicio: ejercicio-05
 */
 
 function mostrar()
