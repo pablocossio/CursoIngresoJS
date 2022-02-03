@@ -11,3 +11,29 @@ function CentigradosFahrenheit ()
 {
 	
 }
+
+
+
+// function 1
+// var centigrados;
+// var fahrenheit;
+// var mensaje;
+
+// fahrenheit=txtIdTemperatura.value;
+// fahrenheit=parseFloat(fahrenheit);
+// centigrados=(fahrenheit - 32) * 5/9;
+// //console.log(centigrados);*/
+// mensaje= fahrenheit + " grados fahrenheit son "+ centigrados.toFixed(2) + " grados centigrados ";
+// alert (mensaje);
+
+
+// function 2
+// var centigrados;
+// var fahrenheit;
+// var mensaje;
+// centigrados = txtIdTemperatura.value;
+// centigrados = parseFloat(centigrados);
+// fahrenheit = (centigrados * 9 / 5 ) + 32;
+// mensaje = centigrados + " centigrados son " + fahrenheit.toFixed(1) + " grados fahrenheits";
+// alert(mensaje);
+
