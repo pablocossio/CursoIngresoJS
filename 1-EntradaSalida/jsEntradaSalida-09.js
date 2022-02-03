@@ -9,6 +9,7 @@
 	-------------------------------------
 */
 
+
 function mostrarAumento(){
 	var sueldo;
 	var resultado;
