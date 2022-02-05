@@ -2,7 +2,7 @@
 	Debemos lograr tomar Los numeros por ID, transformarlos a enteros (parseInt) y Sumarlos. mostrar el resulto por medio de "ALERT"
 	Nombre programador: Pablo omar cossio
 	Lenguaje: Javascript
-	fecha: 2/01/2022
+	fecha: 1/01/2022
 	info: Archivo js en donde se ejecuta pedir un numero y otro numero uy sumarlos usando parseInt.
 	ejercicio: ejercicio-06
 */
