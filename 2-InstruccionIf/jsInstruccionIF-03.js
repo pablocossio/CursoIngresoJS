@@ -1,5 +1,13 @@
 // Al ingresar una edad debemos informar si la persona es mayor de edad, sino informar que es un menor de edad.
 
+/* -------------------------------------
+Nombre programador: Pablo omar cossio
+Lenguaje: Javascript
+fecha: 8/02/2022
+ejercicio: Instruccion-IF  Ejercicio 3
+info: Ingresar una edad y mostrar si es menor.
+------------------------------------- */
+
 function mostrar(){
 	var userAge;
 

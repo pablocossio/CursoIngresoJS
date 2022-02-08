@@ -3,6 +3,18 @@
 //  adolescente (entre 13 y 17 años) o 
 //  niño (menor a 13 años).
 
+/* -------------------------------------
+Nombre programador: Pablo omar cossio
+Lenguaje: Javascript
+fecha: 8/02/2022
+ejercicio: Instruccion-IF  Ejercicio 6
+
+info: Ingresar una edad y determinar si:
+// 	mayor de edad (mas de 18 años) o 
+//  adolescente (entre 13 y 17 años) o 
+//  niño (menor a 13 años).
+------------------------------------- */
+
 function mostrar(){
 	var userAge;
 
