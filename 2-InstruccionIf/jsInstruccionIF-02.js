@@ -1,7 +1,14 @@
+// Al ingresar una edad debemos informar solo si la persona es mayor de edad
+
 function mostrar()
 {
-	//tomo la edad  
-	alert("ok");
+	//  (age > 18)
+	userAge= document.getElementById('txtIdEdad').value;
+	userAge= parseInt(userAge);
+
+	if (userAge > 17){
+		alert(userAge +" Es mayor de edad");
+	}
 	
 
-}//FIN DE LA FUNCIÓN
+}
