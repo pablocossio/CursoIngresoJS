@@ -28,7 +28,7 @@ function mostrar(){
 		if(userAge > 12 && userAge < 18){
 			alert("Eres adolecente");
 		}
-		else if(userAge < 13){
+		if(userAge < 13){
 			alert("Eres menor de edad");
 		}
 	}
