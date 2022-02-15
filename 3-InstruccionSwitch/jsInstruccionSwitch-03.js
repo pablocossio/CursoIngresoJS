@@ -14,7 +14,7 @@ function mostrar(){
 	var mesDelYear;
 	mesDelYear= document.getElementById('txtIdMes').value;
 	
-	// 28 - meses 1
+	// 28 - meses1
 	// 30 - meses 4
 	// 31 - meses 7
 
@@ -34,6 +34,7 @@ function mostrar(){
 		case 'Mayo':
 		case 'Julio':
 		case 'Agosto':
+		case 'septiembre':
 		case 'Octubre':
 		case 'Diciembre':
 			alert(" \"Este mes tiene más de 30 días.\" ");
