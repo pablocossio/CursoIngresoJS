@@ -1,0 +1,26 @@
+.dumi_wave_wrap {
+  position: relative;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  &-shine {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.1);
+    border-radius: 50%;
+    width: 0;
+    height: 0;
+    transform-origin: 50% 50%;
+  }
+  @keyframes scale {
+    0% {
+      transform: scale(0);
+    }
+    100% {
+      transform: scale(10);
+      opacity: 0;
+    }
+  }
+  .wave-animation {
+    animation: scale 500ms linear;
+  }
+}

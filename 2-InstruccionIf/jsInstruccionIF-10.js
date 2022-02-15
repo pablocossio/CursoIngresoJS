@@ -28,7 +28,7 @@ function mostrar(){
 		if(result > 5){
 			alert(result+" : APROBÓ");
 		}
-		if(result < 5){
+		else{
 			alert(result+" : Vamos, La proxima se puede");
 		}
 	}
