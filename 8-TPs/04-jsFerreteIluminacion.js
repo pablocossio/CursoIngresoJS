@@ -17,11 +17,11 @@ ejercicio: Instruccion-IF  Ejercicio 10
 ------------------------------------- */
 
 function CalcularPrecio(){
-    // var cantidadLamparas;
-    // var lamparasDescuento;
-    // var marcaLamparas;
-    // var precioDefault;
-    // var iibb;
+  // var cantidadLamparas;
+  // var lamparasDescuento;
+  // var marcaLamparas;
+  // var precioDefault;
+  // var iibb;
 
 
     // // A. Si compra 6 o más lamparitas bajo consumo tiene un descuento del 50%.
@@ -35,7 +35,7 @@ function CalcularPrecio(){
 
     // if(cantidadLamparas < 3){
     //     cantidadLamparas= (cantidadLamparas*precioDefault);
-    //     lamparasDescuento.value= "Sin Marcas - Precio Normal:  $"+cantidadLamparas;       
+    //     lamparasDescuento.value= "Sin Marcas - Precio Normal:  $"+cantidadLamparas;
     // }
     // else if(cantidadLamparas > 5){
     //     cantidadLamparas= (cantidadLamparas*precioDefault)*0.5;
@@ -65,7 +65,7 @@ function CalcularPrecio(){
     // // C. Si compra 4 lamparitas bajo consumo marca "ArgentinaLuz" o “FelipeLamparas” se hace un descuento del 25 % y si es de otra marca el descuento es del 20%.
     // // 0.25 = 25%
     // // 0.20 = 20%
-    
+
     // else if(cantidadLamparas == 4){
     //     if(marcaLamparas == 'ArgentinaLuz' || marcaLamparas == 'FelipeLamparas'){
     //         cantidadLamparas= (cantidadLamparas*precioDefault)*0.25;
@@ -108,18 +108,18 @@ function CalcularPrecio(){
     //     iibb= (cantidadLamparas + iibb);
     //     alert("Usted pago $"+iibb+ " de IIBB, siendo  $"+iibb+" el inpuesto a pagar");
     // }
-    
+
 
     // -----------------------------------------------------------------------------------------------------------------------------------------
-    
-    
+
+
     var cantidadLamparas;
     var lamparasDescuento;
     var marcaLamparas;
     var precioDefault;
     var iibb;
-    
-    
+
+
     cantidadLamparas= document.getElementById('txtIdCantidad').value;
     lamparasDescuento= document.getElementById('txtIdprecioDescuento');
     marcaLamparas= document.getElementById('Marca').value;
@@ -139,7 +139,7 @@ function CalcularPrecio(){
         default:
             if(cantidadLamparas > 5){
             cantidadLamparas= (cantidadLamparas*precioDefault)*0.5;
-            lamparasDescuento.value= "Sin Marcas - Aplicado 50%  $"+cantidadLamparas;    
+            lamparasDescuento.value= "Sin Marcas - Aplicado 50%  $"+cantidadLamparas;
         }
         break;
 
@@ -147,12 +147,12 @@ function CalcularPrecio(){
         // B- Si compra 5 lamparitas bajo consumo marca "ArgentinaLuz" se hace un descuento del 40 % y si es de otra marca el descuento es del 30%.
         case 5:
             if(marcaLamparas == 'ArgentinaLuz'){
-                cantidadLamparas= (cantidadLamparas*precioDefault)*0.4;
-                lamparasDescuento.value= "ArgentinaLuz - Aplicado 50%  $"+cantidadLamparas;
+              cantidadLamparas= (cantidadLamparas*precioDefault)*0.4;
+              lamparasDescuento.value= "ArgentinaLuz - Aplicado 50%  $"+cantidadLamparas;
             }
             else{
-                cantidadLamparas= (cantidadLamparas*precioDefault)*0.3;
-                lamparasDescuento.value= marcaLamparas+" - Aplicado 30%  $"+cantidadLamparas;
+              cantidadLamparas= (cantidadLamparas*precioDefault)*0.3;
+              lamparasDescuento.value= marcaLamparas+" - Aplicado 30%  $"+cantidadLamparas;
             }
         break;
 
@@ -162,7 +162,7 @@ function CalcularPrecio(){
         // 0.15 = 15%
         // 0.1 = 10%
         // 0.05 = 5%
-        
+
         case 3:
             if(marcaLamparas == 'ArgentinaLuz'){
                 cantidadLamparas= (cantidadLamparas*precioDefault)*0.15;
@@ -180,7 +180,7 @@ function CalcularPrecio(){
     }
 
 
-    // E. Si el importe final con descuento suma más de $120 se debe sumar un 10% de ingresos brutos en informar del impuesto con el siguiente mensaje: ”Usted pago X de IIBB.”, siendo X el impuesto que se pagó.        
+    // E. Si el importe final con descuento suma más de $120 se debe sumar un 10% de ingresos brutos en informar del impuesto con el siguiente mensaje: ”Usted pago X de IIBB.”, siendo X el impuesto que se pagó.
 
     if(cantidadLamparas > 120){
         iibb= cantidadLamparas * 0.1;
