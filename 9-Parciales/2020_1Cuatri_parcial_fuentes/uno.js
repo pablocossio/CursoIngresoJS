@@ -74,6 +74,7 @@ function mostrar(){
 		marca= prompt("Ingrese su marca: ");
 		fabricante= prompt("Ingrese el fabricante: ");
 
+		//***************************************************************
 
 		// Informe del alcohol más barato.
 		if(tipoProducto == "alcohol"){
